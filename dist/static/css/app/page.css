@@ -1,0 +1,202 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/app/component/About.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************/
+.items{
+ position: relative;
+ overflow: hidden;
+ 
+}
+.items::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -120px;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.049);
+    width: 10%;
+    height: 100%;
+    transform: skew(20deg);
+    transition: 0.3s;
+}
+
+.items:hover::after{
+    left: 500px;
+  
+}
+
+
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/app/component/Achivments.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./node_modules/react-multi-carousel/lib/styles.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face{font-family:"revicons";fallback:fallback;src:url(/_next/static/media/revicons.ff59b316.woff) format('woff'),url(/_next/static/media/revicons.b96bdb22.ttf) format('ttf'),url(/_next/static/media/revicons.652e7269.eot) format('ttf')}.react-multi-carousel-list{display:flex;align-items:center;overflow:hidden;position:relative}.react-multi-carousel-track{list-style:none;padding:0;margin:0;display:flex;flex-direction:row;position:relative;transform-style:preserve-3d;backface-visibility:hidden;will-change:transform,transition}.react-multiple-carousel__arrow{position:absolute;outline:0;transition:all .5s;border-radius:35px;z-index:1000;border:0;background:rgba(0,0,0,0.5);min-width:43px;min-height:43px;opacity:1;cursor:pointer}.react-multiple-carousel__arrow:hover{background:rgba(0,0,0,0.8)}.react-multiple-carousel__arrow::before{font-size:20px;color:#fff;display:block;font-family:revicons;text-align:center;z-index:2;position:relative}.react-multiple-carousel__arrow:disabled{cursor:default;background:rgba(0,0,0,0.5)}.react-multiple-carousel__arrow--left{left:calc(4% + 1px)}.react-multiple-carousel__arrow--left::before{content:"\e824"}.react-multiple-carousel__arrow--right{right:calc(4% + 1px)}.react-multiple-carousel__arrow--right::before{content:"\e825"}.react-multi-carousel-dot-list{position:absolute;bottom:0;display:flex;left:0;right:0;justify-content:center;margin:auto;padding:0;margin:0;list-style:none;text-align:center}.react-multi-carousel-dot button{display:inline-block;width:12px;height:12px;border-radius:50%;opacity:1;padding:5px 5px 5px 5px;box-shadow:none;transition:background .5s;border-width:2px;border-style:solid;border-color:grey;padding:0;margin:0;margin-right:6px;outline:0;cursor:pointer}.react-multi-carousel-dot button:hover:active{background:#080808}.react-multi-carousel-dot--active button{background:#080808}.react-multi-carousel-item{transform-style:preserve-3d;backface-visibility:hidden}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.react-multi-carousel-item{flex-shrink:0 !important}.react-multi-carousel-track{overflow:visible !important}}[dir='rtl'].react-multi-carousel-list{direction:rtl}.rtl.react-multiple-carousel__arrow--right{right:auto;left:calc(4% + 1px)}.rtl.react-multiple-carousel__arrow--right::before{content:"\e824"}.rtl.react-multiple-carousel__arrow--left{left:auto;right:calc(4% + 1px)}.rtl.react-multiple-carousel__arrow--left::before{content:"\e825"}
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/app/component/Carouzel.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.carousel_section{
+    width: 100%;
+    height: 60vh;
+    background-image: url('/image/bg.png');
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+
+.person{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.person_item{
+    box-shadow: 2px 0px 0px rgba(100, 100, 100, 0.187);
+}
+
+
+
+
+
+
+
+
+
+
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/app/component/heroSection.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.button_hero::after{
+    position: absolute;
+    top: 0;
+    left: -100%;
+    right: 0;
+    bottom: 0;
+    content: '';
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    transition: 0.4s;
+    z-index: -1;
+    
+}
+
+.button_hero:hover::after{
+left: 0;
+}
+.button_hero{
+    z-index: 2;
+    transition: 0.4s;
+}
+.button_hero:hover{
+    color: black;
+}
+
+/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/app/component/Navbar.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************/
+.dark {
+    background-color: black;
+    transition: 0.6s;
+}
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/app/component/Parallax.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.parallax_image {
+  background-image: url("/image/carouzel5.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.parallax_section {
+  height: 80vh;
+  position: relative;
+}
+
+.parallax_section::after {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 20%,
+    rgba(255, 255, 255, 0) 80%
+  );
+  width: 100%;
+  height: 60%;
+  position: absolute;
+  content: "";
+  
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.parallax_section::before {
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 1) 20%,
+      rgba(255, 255, 255, 0) 80%
+    );
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/app/component/team.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+.image_team:hover{
+    transform: scale(1.2);
+}
+.image_team{
+    transition: 0.4s;
+    
+}
+.box_info{
+    position: absolute;
+    transition: 0.5s;
+    pointer-events: none;
+    top: 150%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.501);
+    
+    
+    
+
+}
+
+.image_team:hover + .box_info{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    
+
+    
+}
+
+

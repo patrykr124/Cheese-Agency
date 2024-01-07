@@ -1,0 +1,45 @@
+.parallax_image {
+  background-image: url("/image/carouzel5.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.parallax_section {
+  height: 80vh;
+  position: relative;
+}
+
+.parallax_section::after {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 20%,
+    rgba(255, 255, 255, 0) 80%
+  );
+  width: 100%;
+  height: 60%;
+  position: absolute;
+  content: "";
+  
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.parallax_section::before {
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 1) 20%,
+      rgba(255, 255, 255, 0) 80%
+    );
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+  }
