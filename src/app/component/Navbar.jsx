@@ -40,7 +40,7 @@ function Navbar() {
       }`}
     >
       <div className="logo flex items-center" onClick={scrollPage}>
-        <i className="fa-solid fa-chess-king"></i>
+        <a className="flex justify-center items-center" href="#home"><span className="text-6xl cursor-pointer">C</span>Agency<span></span></a>
       </div>
       <div className=" nav  flex justify-center text-center items-center gap-10">
         <Link className="action px-5 uppercase lg:flex hidden" href="#Aboutus">

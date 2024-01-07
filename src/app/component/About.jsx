@@ -1,5 +1,9 @@
+
 import React from "react";
 import './About.css'
+import PhotoCamera from '@mui/icons-material/PhotoCamera';
+import PanoramaHorizontal from '@mui/icons-material/PanoramaHorizontal';
+import DoubleArrow from '@mui/icons-material/DoubleArrow';
 
 function About() {
   return (
@@ -15,7 +19,7 @@ function About() {
         </div>
         <div className="about_item flex flex-col lg:flex-row gap-20 px-10">
           <div className="items  bg-darkW px-5 py-20 text-center">
-            <i class="fa-solid fa-shield-halved px-5 py-5"></i>
+            <PhotoCamera className="text-5xl mb-5" ></PhotoCamera>
             <h3 className="px-2 py-2">Graphic Design</h3>
             <p className="description">
               Tempore corrupti temporibus fuga earum asperiores fugit
@@ -23,18 +27,18 @@ function About() {
             </p>
           </div>
           <div className="items bg-dark px-5 py-20 text-center">
-            <i class="fa-solid fa-calendar-days px-5 py-5"></i>
+            <PanoramaHorizontal className="text-5xl mb-5"/>
 
-            <h3 className="px-2 py-2">Graphic Design</h3>
+            <h3 className="px-2 py-2">Motion Design</h3>
             <p className="description">
               Tempore corrupti temporibus fuga earum asperiores fugit
               laudantium.
             </p>
           </div>
           <div className="items px-5 py-20 text-center bg-darkW">
-            <i class="fa-regular fa-paper-plane px-5 py-5"></i>
+            <DoubleArrow className="text-5xl mb-5"></DoubleArrow>
 
-            <h3 className="px-2 py-2">Graphic Design</h3>
+            <h3 className="px-2 py-2">SEO Solution</h3>
             <p className="description">
               Tempore corrupti temporibus fuga earum asperiores fugit
               laudantium.

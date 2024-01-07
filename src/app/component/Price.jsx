@@ -1,4 +1,5 @@
 import React from "react";
+import CheckCircleOutline from '@mui/icons-material/CheckCircleOutline';
 
 function Price() {
   return (
@@ -35,23 +36,23 @@ function Price() {
                 <div className="price_one_feature my-10">Features:</div>
                 <div className="price_one_detailBox">
                   <div className="price_one_detail flex items-center pb-4">
-                    <i class="fa-regular fa-circle-check text-xl mr-5"></i>
+                    <CheckCircleOutline className="text-xl mr-2"/>
                     <p>1 Site</p>
                   </div>
                   <div className="price_one_detail flex items-center pb-4">
-                    <i class="fa-regular fa-circle-check text-xl mr-5"></i>
+                  <CheckCircleOutline className="text-xl mr-2"/>
                     <p>Premium Support</p>
                   </div>
                   <div className="price_one_detail flex items-center pb-4">
-                    <i class="fa-regular fa-circle-check text-xl mr-5"></i>
+                  <CheckCircleOutline className="text-xl mr-2"/>
                     <p>50 Pro Widgets</p>
                   </div>
                   <div className="price_one_detail flex items-center pb-4">
-                    <i class="fa-regular fa-circle-check text-xl mr-5"></i>
+                  <CheckCircleOutline className="text-xl mr-2"/>
                     <p>Theme Builder</p>
                   </div>
                   <div className="price_one_detail flex items-center pb-4">
-                    <i class="fa-regular fa-circle-check text-xl mr-5"></i>
+                  <CheckCircleOutline className="text-xl mr-2"/>
                     <p>Dynamic Content</p>
                   </div>
                 </div>
@@ -78,23 +79,23 @@ function Price() {
               <div className="price_one_feature my-10">Features:</div>
               <div className="price_one_detailBox text-center flex flex-col">
                 <div className="price_one_detail flex items-center pb-4">
-                  <i class="fa-regular fa-circle-check text-xl mr-5"></i>
+                <CheckCircleOutline className="text-xl mr-2"/>
                   <p>Up to 3 Sites</p>
                 </div>
                 <div className="price_one_detail flex items-center pb-4">
-                  <i class="fa-regular fa-circle-check text-xl mr-5"></i>
+                <CheckCircleOutline className="text-xl mr-2"/>
                   <p>Premium Support</p>
                 </div>
                 <div className="price_one_detail flex items-center pb-4">
-                  <i class="fa-regular fa-circle-check text-xl mr-5"></i>
+                <CheckCircleOutline className="text-xl mr-2"/>
                   <p>82 Pro Widgets</p>
                 </div>
                 <div className="price_one_detail flex items-center pb-4">
-                  <i class="fa-regular fa-circle-check text-xl mr-5"></i>
+                <CheckCircleOutline className="text-xl mr-2"/>
                   <p>Theme Builder</p>
                 </div>
                 <div className="price_one_detail flex items-center pb-4">
-                  <i class="fa-regular fa-circle-check text-xl mr-5"></i>
+                <CheckCircleOutline className="text-xl mr-2"/>
                   <p>Dynamic Content</p>
                 </div>
               </div>
@@ -121,23 +122,23 @@ function Price() {
               <div className="price_one_feature my-10 ">Features:</div>
               <div className="price_one_detailBox ">
                 <div className="price_one_detail flex items-center pb-4">
-                  <i class="fa-regular fa-circle-check text-xl mr-5"></i>
+                <CheckCircleOutline className="text-xl mr-2"/>
                   <p>Up to 25 Sites</p>
                 </div>
                 <div className="price_one_detail flex items-center pb-4">
-                  <i class="fa-regular fa-circle-check text-xl mr-5"></i>
+                <CheckCircleOutline className="text-xl mr-2"/>
                   <p>Premium Support</p>
                 </div>
                 <div className="price_one_detail flex items-center pb-4">
-                  <i class="fa-regular fa-circle-check text-xl mr-5"></i>
+                <CheckCircleOutline className="text-xl mr-2"/>
                   <p>Custom Code & CSS</p>
                 </div>
                 <div className="price_one_detail flex items-center pb-4">
-                  <i class="fa-regular fa-circle-check text-xl mr-5"></i>
+                <CheckCircleOutline className="text-xl mr-2"/>
                   <p>Ecommerce Features</p>
                 </div>
                 <div className="price_one_detail flex items-center pb-4">
-                  <i class="fa-regular fa-circle-check text-xl mr-5"></i>
+                <CheckCircleOutline className="text-xl mr-2"/>
                   <p>Dynamic Content</p>
                 </div>
               </div>

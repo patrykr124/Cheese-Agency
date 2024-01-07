@@ -2,6 +2,9 @@
 import React from "react";
 import "./Achivments.css";
 import { Link as ScrollLink } from 'react-scroll';
+import Accessibility from '@mui/icons-material/Accessibility';
+import Celebration from '@mui/icons-material/Celebration';
+import CenterFocusStrong from '@mui/icons-material/CenterFocusStrong';
 
 function Achivments({ title }) {
   return (
@@ -17,7 +20,7 @@ function Achivments({ title }) {
         </div>
         <div className="achivments_item flex flex-col lg:flex-row px-20 ">
           <div className="item lg:px-20 py-10 text-center h-3/4">
-            <i class="fa-solid fa-money-bill-trend-up px-5 py-5"></i>
+           <Accessibility className="text-6xl mb-5"></Accessibility>
             <h3 className="px-2 py-2">1200 clients</h3>
             <p className="description">
               Tempore corrupti temporibus fuga earum asperiores fugit
@@ -25,7 +28,7 @@ function Achivments({ title }) {
             </p>
           </div>
           <div className="item lg:px-20 py-10 text-center h-3/4">
-            <i class="fa-solid fa-champagne-glasses px-5 py-5"></i>
+           <Celebration className="text-6xl mb-5"></Celebration>
             <h3 className="px-2 py-2">80% fun</h3>
             <p className="description">
               Tempore corrupti temporibus fuga earum asperiores fugit
@@ -33,7 +36,7 @@ function Achivments({ title }) {
             </p>
           </div>
           <div className="item lg:px-20 py-10 text-center h-3/4 ">
-            <i class="fa-solid fa-bullseye px-5 py-5"></i>
+           <CenterFocusStrong className="text-6xl mb-5"></CenterFocusStrong>
 
             <h3 className="px-2 py-2">100% focus</h3>
             <p className="description">

@@ -1,5 +1,7 @@
 import React from "react";
 import Image from "next/image";
+import AutoAwesome from '@mui/icons-material/AutoAwesome';
+import Category from '@mui/icons-material/Category';
 
 function AboutCollection() {
   return (
@@ -28,16 +30,16 @@ function AboutCollection() {
           </p>
           <div className="collection_item flex flex-col lg:flex-row gap-10 h-96">
             <div className="item  bg-dark px-5 py-10 text-center h-3/4">
-              <i class="fa-solid fa-pencil px-5 py-5"></i>
-              <h3 className="px-2 py-2">Graphic Design</h3>
+              <AutoAwesome className="text-6xl mb-5" ></AutoAwesome>
+              <h3 className="px-2 py-2">Brand</h3>
               <p className="description">
                 Tempore corrupti temporibus fuga earum asperiores fugit
                 laudantium.
               </p>
             </div>
             <div className="item  bg-dark px-5 py-10 text-center lg:mt-28 h-3/4">
-              <i class="fa-regular fa-handshake px-5 py-5"></i>
-              <h3 className="px-2 py-2">Graphic Design</h3>
+             <Category className="text-6xl mb-5"></Category>
+              <h3 className="px-2 py-2">Collect</h3>
               <p className="description">
                 Tempore corrupti temporibus fuga earum asperiores fugit
                 laudantium.
