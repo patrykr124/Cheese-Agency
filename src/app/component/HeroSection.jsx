@@ -11,7 +11,7 @@ function HeroSection() {
     <section id="home"
       className="h-screen w-full relative"
       style={{
-        backgroundImage: `url('/image/header1.jpg')`,
+        backgroundImage: `url('image/header1.jpg')`,
         backgroundPosition: "center",
         backgroundSize: "cover",
         backgroundAttachment: 'fixed',
