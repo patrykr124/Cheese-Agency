@@ -5,17 +5,64 @@ import { Link as ScrollLink } from 'react-scroll';
 import Accessibility from '@mui/icons-material/Accessibility';
 import Celebration from '@mui/icons-material/Celebration';
 import CenterFocusStrong from '@mui/icons-material/CenterFocusStrong';
+import {motion} from 'framer-motion'
+import { useInView } from "react-intersection-observer";
 
 function Achivments({ title }) {
+
+  const words = title.split(" ");
+  console.log(words)
+
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+    threshold: 0.2, 
+  });
+
+  const containerItems = {
+    hidden: {opacity: 0},
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.05,
+        type: 'spring',
+        damping: 40,
+        stiffness: 100,
+        delay: 0.2
+      },
+    }
+  };
+
+  
+  const containerItems2 = {
+    hidden: {opacity: 0},
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.05,
+        type: 'spring',
+        damping: 40,
+        stiffness: 100,
+        delay: 0.4
+      },
+    }
+  };
+
   return (
     <section className="paddingSection">
       <div className="container">
-        <div className="achivments_text flex justify-center text-center mb-10 flex-col items-center">
-          <h2 className="text-2xl lg:text-3xl mb-5 ">{title}</h2>
+        <div className="achivments_text flex justify-center text-center mb-10 flex-col items-center" ref={ref}>
+
+          <h2 className="text-2xl lg:text-3xl mb-5 ">
+          {inView && ( <motion.div variants={containerItems} initial="hidden" animate="visible">
+            {title}
+            </motion.div>)}
+            </h2>
           <p className="lg:w-2/4 w-5/6 description">
+          {inView && ( <motion.div variants={containerItems2} initial="hidden" animate="visible">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil
             nostrum, modi et minima facere qui nulla molestiae! Sequi amet
             consectetur, adipisicing elit. Nihil!
+            </motion.div>)}
           </p>
         </div>
         <div className="achivments_item flex flex-col lg:flex-row px-20 ">

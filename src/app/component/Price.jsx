@@ -17,7 +17,7 @@ function Price() {
         </div>
         <div className="price_box_section">
           <div className="price_container flex lg:flex-row flex-col gap-20 lg:gap-60 justify-center ">
-            <div className="price_one_box mt-9">
+            <div className="price_one_box mt-9 p-8">
               <div className="price_one_price flex flex-col text-center mb-10">
                 <h4 className="font-bold text-2xl">ESSENTIAL</h4>
                 <p className="description">
@@ -102,7 +102,7 @@ function Price() {
               </div>
             </div>
 
-            <div className="price_one_box">
+            <div className="price_one_box p-8">
             <div className="coll_botton flex flex-col items-center lg:items-start">
 
               <div className="price_one_price flex flex-col text-center mb-10 mt-9">

@@ -16,10 +16,10 @@ export default function Home() {
     <>
     <Navbar></Navbar>
     <main className="flex min-h-screen flex-col items-center mx-auto justify-center">
-      <HeroSection></HeroSection>
-      <About></About>
+      <HeroSection text='O r i g i n a l - S o l u t i o n'></HeroSection>
+      <About text='We are a new digital product development agency'></About>
       <AboutCollection></AboutCollection>
-      <Achivments title={`Pleasure in the job puts perfection in the work.`}></Achivments>
+      <Achivments title='Pleasure in the job puts perfection in the work.'></Achivments>
       <Team>123</Team>
       <Carouzel/>
       <Parallax/>
