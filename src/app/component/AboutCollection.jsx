@@ -9,7 +9,7 @@ function AboutCollection() {
       <div className="container flex flex-col lg:flex-row justify-center align-middle items-center">
         <div className="collection_image xl:w-1/2">
           <Image
-            src="/image/vape.jpg"
+            src="image/vape.jpg"
             width={600}
             height={600}
             alt="vape men"

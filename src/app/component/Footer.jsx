@@ -67,7 +67,7 @@ function Footer() {
                 <div className="recent_img_box pr-10">
                   <Image
                     className="recent_img"
-                    src="/image/carouzel3.jpg"
+                    src="image/carouzel3.jpg"
                     width={100}
                     height={100}
                     alt="vape men"
@@ -89,7 +89,7 @@ function Footer() {
                 <div className="recent_img_box pr-10">
                   <Image
                     className="recent_img"
-                    src="/image/carouzel6.jpg"
+                    src="image/carouzel6.jpg"
                     width={100}
                     height={100}
                     alt="vape men"
