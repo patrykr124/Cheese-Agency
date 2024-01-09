@@ -37,7 +37,7 @@ function Carouzel() {
           infinite={true}
           autoPlaySpeed={2000}
           keyBoardControl={true}
-          //  autoPlay={true}
+          autoPlay={true}
           transitionDuration={500}
           containerClass="carousel-container"
           removeArrowOnDeviceType={["tablet", "mobile"]}
