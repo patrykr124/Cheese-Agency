@@ -28,7 +28,17 @@ function Carouzel() {
   };
 
   return (
-    <div className="carousel_section flex items-center justify-center paddingSection">
+    <div className="carousel_section flex items-center justify-center paddingSection"
+    style={{
+      backgroundImage: `url('image/bg.png')`,
+      backgroundPosition: "center",
+      backgroundSize: "cover",
+      backgroundAttachment: "fixed",
+      backgroundRepeat: "no-repeat",
+      width: "100%",
+      height: "100%",
+      
+    }}>
       <div className="container">
         <Carousel
           swipeable={true}
@@ -51,7 +61,7 @@ function Carouzel() {
                 src="image/item1.jpg"
                 width={600}
                 height={600}
-                alt="vape men"
+                alt="vape"
                 style={{ width: "100px", height: "100px" }}
               ></Image>
               <h3 className="person_name">Davis Lovens</h3>
