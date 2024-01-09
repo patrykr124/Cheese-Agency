@@ -114,7 +114,7 @@ function About( {text}) {
         <div className="about_item flex flex-col lg:flex-row gap-20 px-10">
         {inView && ( <motion.div variants={containerItems} initial="hidden" animate="visible">
           <div className="items  bg-darkW px-5 py-20 text-center">
-            <PhotoCamera className="text-5xl mb-5" ></PhotoCamera>
+            <PhotoCamera style={{fontSize: '45px'}} className="text-5xl mb-5" ></PhotoCamera>
             <h3 className="px-2 py-2">Graphic Design</h3>
             <p className="description">
               Tempore corrupti temporibus fuga earum asperiores fugit
@@ -125,7 +125,7 @@ function About( {text}) {
 
           {inView && ( <motion.div variants={containerItems2} initial="hidden" animate="visible">
           <div className="items bg-dark px-5 py-20 text-center">
-            <PanoramaHorizontal className="text-5xl mb-5"/>
+            <PanoramaHorizontal style={{fontSize: '45px'}} className="text-5xl mb-5"/>
 
             <h3 className="px-2 py-2">Motion Design</h3>
             <p className="description">
@@ -138,7 +138,7 @@ function About( {text}) {
           {inView && ( <motion.div variants={containerItems3} initial="hidden" animate="visible">
 
           <div className="items px-5 py-20 text-center bg-darkW">
-            <DoubleArrow className="text-5xl mb-5"></DoubleArrow>
+            <DoubleArrow style={{fontSize: '45px'}} className="text-5xl mb-5"></DoubleArrow>
 
             <h3 className="px-2 py-2">SEO Solution</h3>
             <p className="description">

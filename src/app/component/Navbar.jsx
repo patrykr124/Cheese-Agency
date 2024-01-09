@@ -57,7 +57,7 @@ function Navbar() {
           Offer
         </Link>
         <button className="lg:hidden z-40" onClick={toggleMenu}>
-          <Menu className="text-5xl"></Menu> 
+          <Menu style={{fontSize: '35px'}} className="text-5xl"></Menu> 
         </button>
 
         {showMenu && (

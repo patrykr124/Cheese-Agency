@@ -19,7 +19,7 @@ function Footer() {
             <div className="contact_icon ">
               <div className="local_box flex mb-5">
                 <div className="adres_icon flex mr-5 ">
-                 <FmdGood className="text-4xl cursor-pointer"></FmdGood>
+                 <FmdGood style={{fontSize: '35px'}} className="text-4xl cursor-pointer"></FmdGood>
                 </div>
                 <div className="adress_text">
                   <h4 className="font-bold mb-1 text-xl">Officeal Address</h4>
@@ -33,7 +33,7 @@ function Footer() {
               <div className="email_icon">
                 <div className="email_box flex mb-10">
                   <div className="email_icon flex mr-5">
-                    <Email className="text-4xl cursor-pointer"></Email>
+                    <Email style={{fontSize: '35px'}} className="text-4xl cursor-pointer"></Email>
                   </div>
                   <div className="email_text">
                     <h4 className="font-bold mb-1 text-xl">Email Us</h4>
@@ -46,7 +46,7 @@ function Footer() {
                 <div className="phone_icon">
                   <div className="phone_box flex mb-5">
                     <div className="phone_icon flex mr-5 ">
-                      <LocalPhone className="text-4xl cursor-pointer"></LocalPhone>
+                      <LocalPhone style={{fontSize: '35px'}} className="text-4xl cursor-pointer"></LocalPhone>
                     </div>
                     <div className="phone_text">
                       <h4 className="font-bold mb-1 text-xl">Call Us</h4>
@@ -114,9 +114,9 @@ function Footer() {
 
             <div className="cheese_container">
               <div className="cheese_icon flex justify-between mb-10">
-                <Facebook className="text-4xl cursor-pointer"></Facebook>
-                <Instagram className="text-4xl cursor-pointer"></Instagram>
-                <Twitter className="text-4xl cursor-pointer"></Twitter>
+                <Facebook style={{fontSize: '35px'}} className="text-4xl cursor-pointer"></Facebook>
+                <Instagram style={{fontSize: '35px'}} className="text-4xl cursor-pointer"></Instagram>
+                <Twitter style={{fontSize: '35px'}} className="text-4xl cursor-pointer"></Twitter>
               </div>
               <div className="privacy_box overflow-hidden flex flex-col gap-5">
                 <span className="recent_span text-sm  text-gray-400">
