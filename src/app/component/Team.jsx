@@ -20,7 +20,7 @@ function Team() {
           <div className="team1 overflow-hidden relative">
             <Image
               className="image_team"
-              src="image/item1.jpg"
+              src="/image/item1.jpg"
               width={600}
               height={600}
               alt="vape men team leader"
@@ -36,7 +36,7 @@ function Team() {
           <div className="team2 overflow-hidden relative">
             <Image
               className="image_team"
-              src="image/item2.jpg"
+              src="/image/item2.jpg"
               width={600}
               height={600}
               alt="vape woman leader"
@@ -52,7 +52,7 @@ function Team() {
           <div className="team3 overflow-hidden relative">
             <Image
               className="image_team "
-              src="image/item3.jpg"
+              src="/image/item3.jpg"
               width={600}
               height={600}
               alt="vape woman"
