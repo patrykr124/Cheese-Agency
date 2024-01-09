@@ -6,7 +6,7 @@ import {motion} from 'framer-motion'
 
 function HeroSection({ text }) {
   const words = text.split(" ");
-  console.log(words)
+ 
 
   const container = {
     hidden: {opacity: 0},
@@ -70,7 +70,7 @@ function HeroSection({ text }) {
       id="home"
       className="h-screen w-full relative"
       style={{
-        backgroundImage: `url('/image/header1.jpg')`,
+        backgroundImage: `url('image/header1.jpg')`,
         backgroundPosition: "center",
         backgroundSize: "cover",
         backgroundAttachment: "fixed",

@@ -11,8 +11,7 @@ import { useInView } from "react-intersection-observer";
 function Achivments({ title }) {
 
   const words = title.split(" ");
-  console.log(words)
-
+  
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.2, 

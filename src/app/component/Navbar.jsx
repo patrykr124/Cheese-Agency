@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import "./Navbar.css";
 import { Link as ScrollLink } from "react-scroll";
-import MenuIcon from '@mui/icons-material/Menu';
+import Menu from '@mui/icons-material/Menu';
 
 function Navbar() {
   const [scroll, setScroll] = useState(false);
@@ -57,7 +57,7 @@ function Navbar() {
           Offer
         </Link>
         <button className="lg:hidden z-40" onClick={toggleMenu}>
-          <MenuIcon className="text-5xl"></MenuIcon> 
+          <Menu className="text-5xl"></Menu> 
         </button>
 
         {showMenu && (

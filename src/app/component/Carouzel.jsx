@@ -48,7 +48,7 @@ function Carouzel() {
             <div className="person_item lg:w-1/2 flex flex-row lg:flex-col ">
               <Image
                 className="image_person rounded-full mb-5 object-cover mr-5 lx:mr-0"
-                src="/image/item1.jpg"
+                src="image/item1.jpg"
                 width={600}
                 height={600}
                 alt="vape men"
