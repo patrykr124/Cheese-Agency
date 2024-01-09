@@ -1,5 +1,5 @@
 .parallax_image {
-  background-image: url("/image/carouzel5.jpg");
+  background-image: url("image/carouzel5.jpg");
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
